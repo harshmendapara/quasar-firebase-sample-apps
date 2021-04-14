@@ -1,0 +1,49 @@
+{
+  "name": "email",
+  "version": "0.0.1",
+  "description": "Email authentication implementation with Firebase",
+  "productName": "Firebase Sample App: Email Authentication",
+  "author": "Adam K. Purdy <admin@kpapro.com>",
+  "private": true,
+  "scripts": {
+    "dev": "QENV=DEV quasar dev",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.10.2",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
+    "firebase": "^8.2.4",
+    "quasar": "^1.15.10"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.2.4",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "babel-eslint": "^10.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^7.5.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ]
+}
